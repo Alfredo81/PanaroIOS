@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +18,74 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN2-Ps-myI">
+                                <rect key="frame" x="73" y="461" width="455" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-Zx-RE7">
+                                <rect key="frame" x="225" y="50" width="150" height="150"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="91k-RP-XPS"/>
+                                    <constraint firstAttribute="width" secondItem="SLO-Zx-RE7" secondAttribute="height" multiplier="1:1" id="Shd-ej-VCY"/>
+                                    <constraint firstAttribute="width" secondItem="SLO-Zx-RE7" secondAttribute="height" multiplier="1:1" id="bxr-YX-v4h"/>
+                                </constraints>
+                                <state key="normal" image="btn.jpg"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Shd-ej-VCY"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="pushedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pzf-TC-uUu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="205" id="3NX-iB-J4X"/>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Rt-qV-INA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pN2-Ps-myI" secondAttribute="bottom" constant="103" id="9g2-Zs-wyy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pN2-Ps-myI" secondAttribute="trailing" constant="52" id="HbK-Sw-0MX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SLO-Zx-RE7" secondAttribute="trailing" constant="205" id="L0z-fj-yVf"/>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Okq-aR-JK3"/>
+                            <constraint firstItem="pN2-Ps-myI" firstAttribute="top" secondItem="SLO-Zx-RE7" secondAttribute="bottom" constant="141" id="RmP-i3-Ndr"/>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="VUK-cA-2nS"/>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="205" id="j5V-9F-xer"/>
+                            <constraint firstItem="pN2-Ps-myI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="p5M-bZ-Vfh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SLO-Zx-RE7" secondAttribute="bottom" constant="400" id="qC8-7l-K5c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SLO-Zx-RE7" secondAttribute="trailing" constant="205" id="uW6-Ud-R4z"/>
+                            <constraint firstItem="SLO-Zx-RE7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="wst-9u-TQZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3NX-iB-J4X"/>
+                                <exclude reference="L0z-fj-yVf"/>
+                                <exclude reference="VUK-cA-2nS"/>
+                                <exclude reference="j5V-9F-xer"/>
+                                <exclude reference="uW6-Ud-R4z"/>
+                                <exclude reference="wst-9u-TQZ"/>
+                                <exclude reference="RmP-i3-Ndr"/>
+                                <exclude reference="qC8-7l-K5c"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="pushMeBnt" destination="SLO-Zx-RE7" id="rzz-EP-u5M"/>
+                        <outlet property="textLabel" destination="pN2-Ps-myI" id="giC-1R-hHH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="436" y="438"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn.jpg" width="240" height="240"/>
+    </resources>
 </document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CalabashDemo-cal.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CalabashDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6284B1DC1BC5204200568EF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D3F3C71BC3AC3200AB6BBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D3F3E01BC3AC3200AB6BBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D3F3EB1BC3AC3300AB6BBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

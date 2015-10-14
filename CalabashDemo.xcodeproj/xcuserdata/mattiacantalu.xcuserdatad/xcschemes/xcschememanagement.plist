@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CalabashDemo-cal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CalabashDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6284B1DC1BC5204200568EF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>62D3F3C71BC3AC3200AB6BBA</key>
 		<dict>
 			<key>primary</key>

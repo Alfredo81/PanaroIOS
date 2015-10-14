@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6284B1DE1BC5204200568EF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3D21BC3AC3200AB6BBA /* ViewController.m */; };
+		6284B1DF1BC5204200568EF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3CF1BC3AC3200AB6BBA /* AppDelegate.m */; };
+		6284B1E01BC5204200568EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3CC1BC3AC3200AB6BBA /* main.m */; };
+		6284B1E31BC5204200568EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3D91BC3AC3200AB6BBA /* LaunchScreen.storyboard */; };
+		6284B1E41BC5204200568EF1 /* btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3FE1BC3ACC000AB6BBA /* btn.jpg */; settings = {ASSET_TAGS = (); }; };
+		6284B1E51BC5204200568EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3D71BC3AC3200AB6BBA /* Assets.xcassets */; };
+		6284B1E61BC5204200568EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3D41BC3AC3200AB6BBA /* Main.storyboard */; };
+		6284B1ED1BC5210C00568EF1 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284B1EC1BC5210C00568EF1 /* calabash.framework */; settings = {ASSET_TAGS = (); }; };
+		6284B1EF1BC5212C00568EF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284B1EE1BC5212C00568EF1 /* CFNetwork.framework */; };
 		62D3F3CD1BC3AC3200AB6BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3CC1BC3AC3200AB6BBA /* main.m */; };
 		62D3F3D01BC3AC3200AB6BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3CF1BC3AC3200AB6BBA /* AppDelegate.m */; };
 		62D3F3D31BC3AC3200AB6BBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3D21BC3AC3200AB6BBA /* ViewController.m */; };
@@ -15,6 +24,7 @@
 		62D3F3DB1BC3AC3200AB6BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3D91BC3AC3200AB6BBA /* LaunchScreen.storyboard */; };
 		62D3F3E61BC3AC3200AB6BBA /* CalabashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3E51BC3AC3200AB6BBA /* CalabashDemoTests.m */; };
 		62D3F3F11BC3AC3300AB6BBA /* CalabashDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3F3F01BC3AC3300AB6BBA /* CalabashDemoUITests.m */; };
+		62D3F3FF1BC3ACC000AB6BBA /* btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62D3F3FE1BC3ACC000AB6BBA /* btn.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6284B1EA1BC5204200568EF1 /* CalabashDemo-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalabashDemo-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6284B1EB1BC5204200568EF1 /* CalabashDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CalabashDemo copy-Info.plist"; path = "/Users/mattiacantalu/Documents/CalabashDemo/CalabashDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		6284B1EC1BC5210C00568EF1 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		6284B1EE1BC5212C00568EF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		62D3F3C81BC3AC3200AB6BBA /* CalabashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D3F3CC1BC3AC3200AB6BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62D3F3CE1BC3AC3200AB6BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,9 +65,19 @@
 		62D3F3EC1BC3AC3300AB6BBA /* CalabashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D3F3F01BC3AC3300AB6BBA /* CalabashDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalabashDemoUITests.m; sourceTree = "<group>"; };
 		62D3F3F21BC3AC3300AB6BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D3F3FE1BC3ACC000AB6BBA /* btn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btn.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6284B1E11BC5204200568EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6284B1EF1BC5212C00568EF1 /* CFNetwork.framework in Frameworks */,
+				6284B1ED1BC5210C00568EF1 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62D3F3C51BC3AC3200AB6BBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,10 +105,14 @@
 		62D3F3BF1BC3AC3200AB6BBA = {
 			isa = PBXGroup;
 			children = (
+				6284B1EE1BC5212C00568EF1 /* CFNetwork.framework */,
+				6284B1EC1BC5210C00568EF1 /* calabash.framework */,
+				62D3F3FE1BC3ACC000AB6BBA /* btn.jpg */,
 				62D3F3CA1BC3AC3200AB6BBA /* CalabashDemo */,
 				62D3F3E41BC3AC3200AB6BBA /* CalabashDemoTests */,
 				62D3F3EF1BC3AC3300AB6BBA /* CalabashDemoUITests */,
 				62D3F3C91BC3AC3200AB6BBA /* Products */,
+				6284B1EB1BC5204200568EF1 /* CalabashDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +122,7 @@
 				62D3F3C81BC3AC3200AB6BBA /* CalabashDemo.app */,
 				62D3F3E11BC3AC3200AB6BBA /* CalabashDemoTests.xctest */,
 				62D3F3EC1BC3AC3300AB6BBA /* CalabashDemoUITests.xctest */,
+				6284B1EA1BC5204200568EF1 /* CalabashDemo-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +172,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6284B1DC1BC5204200568EF1 /* CalabashDemo-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6284B1E71BC5204200568EF1 /* Build configuration list for PBXNativeTarget "CalabashDemo-cal" */;
+			buildPhases = (
+				6284B1DD1BC5204200568EF1 /* Sources */,
+				6284B1E11BC5204200568EF1 /* Frameworks */,
+				6284B1E21BC5204200568EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalabashDemo-cal";
+			productName = CalabashDemo;
+			productReference = 6284B1EA1BC5204200568EF1 /* CalabashDemo-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		62D3F3C71BC3AC3200AB6BBA /* CalabashDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62D3F3F51BC3AC3300AB6BBA /* Build configuration list for PBXNativeTarget "CalabashDemo" */;
@@ -234,16 +280,29 @@
 				62D3F3C71BC3AC3200AB6BBA /* CalabashDemo */,
 				62D3F3E01BC3AC3200AB6BBA /* CalabashDemoTests */,
 				62D3F3EB1BC3AC3300AB6BBA /* CalabashDemoUITests */,
+				6284B1DC1BC5204200568EF1 /* CalabashDemo-cal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6284B1E21BC5204200568EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6284B1E31BC5204200568EF1 /* LaunchScreen.storyboard in Resources */,
+				6284B1E41BC5204200568EF1 /* btn.jpg in Resources */,
+				6284B1E51BC5204200568EF1 /* Assets.xcassets in Resources */,
+				6284B1E61BC5204200568EF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62D3F3C61BC3AC3200AB6BBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62D3F3DB1BC3AC3200AB6BBA /* LaunchScreen.storyboard in Resources */,
+				62D3F3FF1BC3ACC000AB6BBA /* btn.jpg in Resources */,
 				62D3F3D81BC3AC3200AB6BBA /* Assets.xcassets in Resources */,
 				62D3F3D61BC3AC3200AB6BBA /* Main.storyboard in Resources */,
 			);
@@ -266,6 +325,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6284B1DD1BC5204200568EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6284B1DE1BC5204200568EF1 /* ViewController.m in Sources */,
+				6284B1DF1BC5204200568EF1 /* AppDelegate.m in Sources */,
+				6284B1E01BC5204200568EF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62D3F3C41BC3AC3200AB6BBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +396,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6284B1E81BC5204200568EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CalabashDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoox.CalabashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6284B1E91BC5204200568EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CalabashDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoox.CalabashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		62D3F3F31BC3AC3300AB6BBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,7 +461,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YOOX Spa";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,9 +481,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +506,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YOOX Spa";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -400,8 +520,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -410,22 +531,38 @@
 		62D3F3F61BC3AC3300AB6BBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
 				INFOPLIST_FILE = CalabashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoox.CalabashDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		62D3F3F71BC3AC3300AB6BBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: YOOX Spa";
 				INFOPLIST_FILE = CalabashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoox.CalabashDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7358d48e-fbb5-4181-a409-f59cec897c9e";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -480,6 +617,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6284B1E71BC5204200568EF1 /* Build configuration list for PBXNativeTarget "CalabashDemo-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6284B1E81BC5204200568EF1 /* Debug */,
+				6284B1E91BC5204200568EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		62D3F3C31BC3AC3200AB6BBA /* Build configuration list for PBXProject "CalabashDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -496,6 +642,7 @@
 				62D3F3F71BC3AC3300AB6BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62D3F3F81BC3AC3300AB6BBA /* Build configuration list for PBXNativeTarget "CalabashDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +651,7 @@
 				62D3F3FA1BC3AC3300AB6BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62D3F3FB1BC3AC3300AB6BBA /* Build configuration list for PBXNativeTarget "CalabashDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +660,7 @@
 				62D3F3FD1BC3AC3300AB6BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
